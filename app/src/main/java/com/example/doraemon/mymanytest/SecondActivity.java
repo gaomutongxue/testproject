@@ -63,7 +63,7 @@ public class SecondActivity extends BaseActivity {
         baseFragments=new ArrayList<BaseFragment>();
         CommonNavigator commonNavigator = new CommonNavigator(this);
         mTitleDataList=new ArrayList<String>();
-        mTitleDataList.add("第一个");
+        mTitleDataList.add("第一个a");
         mTitleDataList.add("第二个");
         commonNavigator.setAdapter(new CommonNavigatorAdapter() {
 
