@@ -114,7 +114,7 @@ public class BaseFragment extends Fragment {
                 initData();
                 //  EventBus.getDefault().post(new MessageEvent(MessageEvent.FLASHDATA, null));
             }
-        }, 350);    //TODO 为什么眼延迟
+        }, 350);    //TODO 为什么眼延迟a
     }
 
     protected void initData() {
